@@ -5,6 +5,7 @@ bool res (char list [10][20],char name[20],int &i){
     if((strcmp(list[i],name))==0){
       return true;
     }
+    
   }
   return false;
 }
