@@ -9,11 +9,11 @@ int main(){
   for(int i=0,i<10,i++){
     cin >> list[i];
   }
-                 cin >>name;
-                 if (res(list,name,a)){
-                   cout << a;
-                 }else{
-                   cout << "non presente";
-                 }
+  cin >>name;
+  if (res(list,name,a)){
+  cout << a;
+  }else{
+  cout << "non presente";
+       }
   return 0;
 }
